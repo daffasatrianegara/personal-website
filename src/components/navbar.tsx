@@ -42,7 +42,7 @@ const NavbarComponent: React.FC = () => {
                 handleRedirectToSocmed("https://github.com/daffasatrianegara")
               }
             >
-              <SiGithub/>
+              <SiGithub />
               Github
             </DropdownMenuItem>
             <DropdownMenuItem
@@ -50,7 +50,7 @@ const NavbarComponent: React.FC = () => {
                 handleRedirectToSocmed("https://www.instagram.com/dapaasat/")
               }
             >
-              <SiInstagram/>
+              <SiInstagram />
               Instagram
             </DropdownMenuItem>
             <DropdownMenuItem
@@ -60,7 +60,7 @@ const NavbarComponent: React.FC = () => {
                 )
               }
             >
-              <SiSpotify/>
+              <SiSpotify />
               Spotify
             </DropdownMenuItem>
           </DropdownMenuContent>

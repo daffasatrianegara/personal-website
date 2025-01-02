@@ -1,16 +1,15 @@
 import { ThemeProvider } from "@/components/theme-provider";
-import NavbarComponent from "./components/navbar";
+import MainLayout from "./layouts/main.layout";
 import { Card } from "./components/ui/card";
 
 function App() {
   return (
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
-      <NavbarComponent />
-      <div className="px-16 mt-5">
+      <MainLayout>
         <Card>
           <h1>test</h1>
         </Card>
-      </div>
+      </MainLayout>
     </ThemeProvider>
   );
 }
