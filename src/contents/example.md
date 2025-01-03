@@ -1,9 +1,9 @@
 ## hello world
-nama saya muhammad daffa satriia negara
+nama saya muhammad daffa satria negara
 ```
 console.log("duarrr!!!")
 ```
 
 ``test``
 
- nama kamu siapa?
+### dilanjut kalo lagi ga mager
