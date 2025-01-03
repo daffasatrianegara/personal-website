@@ -5,7 +5,7 @@ const MainLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
   return (
     <main>
       <NavbarComponent />
-      <div className="px-16 my-5">{children}</div>
+      <div className="px-5 md:px-16 sm:px-5 my-5">{children}</div>
       <FooterComponent />
     </main>
   );

@@ -9,7 +9,6 @@ function App() {
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
       <MainLayout>
         <Card className="p-5">
-          <h1>test</h1>
           <MarkdownRenderer mdUrl={contentMd} />
         </Card>
         <br />
