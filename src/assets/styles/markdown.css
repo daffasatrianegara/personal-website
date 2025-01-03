@@ -1,4 +1,3 @@
-/* Default Markdown Body */
 .markdown-body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -7,14 +6,12 @@
   background-color: #fff;
 }
 
-/* Dark Theme */
-.theme-dark .markdown-body {
+.dark .markdown-body {
   color: #ddd;
   background-color: #1e1e1e;
 }
 
-/* Light Theme */
-.theme-light .markdown-body {
+.light .markdown-body {
   color: #333;
   background-color: #fff;
 }
