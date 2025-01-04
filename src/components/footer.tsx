@@ -8,7 +8,7 @@ const FooterComponent: React.FC = () => {
             className="text-green-500 underline cursor-pointer hover:text-green-400"
             href="https://www.linkedin.com/in/muhammad-daffa-satria-negara"
             target="_blank"
-            rel="noopener noreferrer" 
+            rel="noopener noreferrer"
           >
             Daffa Satria
           </a>
