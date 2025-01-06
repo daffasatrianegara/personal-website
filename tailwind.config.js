@@ -12,6 +12,8 @@ export default {
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        emerald: "#26C385",
+        emeraldhover: '#4cd298',
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",

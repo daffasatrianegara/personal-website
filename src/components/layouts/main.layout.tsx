@@ -2,7 +2,10 @@ import NavbarComponent from "@/components/navbar";
 import FooterComponent from "@/components/footer";
 import { Helmet } from "react-helmet-async";
 
-const MainLayout = ({ children, title }: Readonly<{ children: React.ReactNode, title: string }>) => {
+const MainLayout = ({
+  children,
+  title,
+}: Readonly<{ children: React.ReactNode; title: string }>) => {
   return (
     <main>
       <Helmet>

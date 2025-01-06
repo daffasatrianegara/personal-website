@@ -13,9 +13,9 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<LandingPage />} />
-            <Route path="/certificates" element={<CertificatesPage/>}/>
-            <Route path="/projects" element={<ProjectsPage/>}/>
-            <Route path="/projects/:id" element={<DetailProjectPage/>}/>
+            <Route path="/certificates" element={<CertificatesPage />} />
+            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/projects/:id" element={<DetailProjectPage />} />
           </Routes>
         </Router>
       </ThemeProvider>

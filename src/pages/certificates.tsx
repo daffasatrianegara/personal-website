@@ -1,9 +1,9 @@
 const CertificatesPage = () => {
-    return (
-        <div>
-            <h1>Ini halaman untuk Sertifikat</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <h1>Ini halaman untuk Sertifikat</h1>
+    </div>
+  );
+};
 
-export default CertificatesPage
+export default CertificatesPage;

@@ -1,5 +1,5 @@
 import MainLayout from "@/components/layouts/main.layout";
-import HeadMainComponent from "@/components/head.main";
+import HeadMainComponent from "@/components/bento.main";
 
 const LandingPage = () => {
   return (
