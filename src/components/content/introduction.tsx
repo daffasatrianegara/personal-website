@@ -1,13 +1,11 @@
 import { Card } from "../ui/card";
 import { useState, useEffect } from "react";
+import IntroData from "@/contents/dynamic-data/introduction.json";
 
 const IntroductionContent = () => {
-  const roles = [
-    "Fullstack Web Developer",
-    "Frontend Developer",
-    "Backend Developer",
-    "Cloud Engineer",
-  ];
+  const contentData = IntroData.introduction;
+  const roles = contentData.roles;
+
   const [text, setText] = useState("");
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -57,19 +55,14 @@ const IntroductionContent = () => {
               alt="img_me"
             />
           </div>
-          <p className="text-base mb-1">
-            I am a versatile <b>software engineer</b> skilled in{" "}
-            <b>front-end</b> and <b>back-end development</b>, with expertise in{" "}
-            <b>cloud computing</b> using{" "}
-            <b className="text-emerald">Google Cloud Platform</b> (GCP). I
-            create intuitive, engaging interfaces that prioritize seamless user
-            experiences and am driven by curiosity and a commitment to
-            continuous growth.
-          </p>
+          <p
+            className="text-base mb-1"
+            dangerouslySetInnerHTML={{ __html: contentData["text-main"] }}
+          ></p>
           <div className="mt-5">
             <a
               className="bg-emerald py-2 px-5 rounded font-bold text-white hover:bg-emeraldhover"
-              href="mailto:daffasatria036@gmail.com"
+              href={`mailto:${contentData.email}`}
             >
               Get in Touch
             </a>
@@ -78,7 +71,7 @@ const IntroductionContent = () => {
         <div className="md:w-[40%] max-md:hidden flex justify-center items-center">
           <img
             className="w-100 h-[42vh] object-cover"
-            src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHZsMGM3bXRnNWsyZDhpaGZveTd0Z2R0eWV0eXh4NzBlNTFuMjE4cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xTg8B31DCfCWKEThG8/giphy.webp"
+            src={contentData["link-img"]}
             alt="img_me"
           />
         </div>

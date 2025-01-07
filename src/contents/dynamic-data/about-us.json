@@ -1,0 +1,47 @@
+{
+  "about-us": {
+    "text-main": "Currently pursuing a Bachelor's degree in Information Technology at Universitas Negeri Yogyakarta. Proficient in communication, public speaking, and critical thinking, with strong collaboration and teamwork skills. Experienced in working effectively under pressure and managing time efficiently.",
+    "programming-languages": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "PHP",
+      "Java",
+      "Python",
+      "Go",
+      "SQL"
+    ],
+    "frameworks": [
+      "React.js",
+      "Next.js",
+      "Vue.js",
+      "Laravel",
+      "Node.js",
+      "Express.js",
+      "Hapi",
+      "Tailwind CSS",
+      "Chakra UI",
+      "Bootstrap",
+      "Shadcn/ui",
+      "Next/ui"
+    ],
+    "softwares": [
+      "Visual Studio Code",
+      "GIT",
+      "MySQL Workbench",
+      "pgAdmin 4",
+      "Wampserver",
+      "Postgresql",
+      "Postman",
+      "Google Environment",
+      "Microsoft Office",
+      "Trello",
+      "Notion",
+      "Canva",
+      "Figma",
+      "ibisPaint",
+      "GCP"
+    ]
+  }
+}

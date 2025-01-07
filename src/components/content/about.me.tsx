@@ -5,18 +5,15 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "../ui/accordion";
+import AboutData from "@/contents/dynamic-data/about-us.json";
 
 const AboutMeContent = () => {
+  const contentData = AboutData["about-us"]
+
   return (
     <Card className="p-5">
       <p className="text-base md:text-lg font-semibold">About Me</p>
-      <p className="mt-2 font-light text-base">
-        Currently pursuing a Bachelor's degree in Information Technology at
-        Universitas Negeri Yogyakarta. Proficient in communication, public
-        speaking, and critical thinking, with strong collaboration and teamwork
-        skills. Experienced in working effectively under pressure and managing
-        time efficiently.
-      </p>
+      <p className="mt-2 font-light text-base">{contentData["text-main"]}</p>
       <div className="my-3 w-full border-b border-gray-200 dark:border-gray-800"></div>
       <p className="text-base md:text-sm">
         I work with a range of cutting-edge technologies, including:
@@ -28,16 +25,10 @@ const AboutMeContent = () => {
               Programming Languanges
             </AccordionTrigger>
             <AccordionContent className="p-2 ps-5">
-              <ul className="grid grid-cols-2 list-disc list-inside gap-1">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>PHP</li>
-                <li>Java</li>
-                <li>Python</li>
-                <li>Go</li>
-                <li>SQL</li>
+              <ul className="grid grid-cols-2 list-disc list-inside gap-1 max-sm:text-xs">
+                {contentData["programming-languages"].map((data, index) => (
+                  <li key={index}>{data}</li>
+                ))}
               </ul>
             </AccordionContent>
           </AccordionItem>
@@ -46,18 +37,10 @@ const AboutMeContent = () => {
               Framewoks
             </AccordionTrigger>
             <AccordionContent className="p-2 ps-5">
-              <ul className="grid grid-cols-2 list-disc list-inside gap-1">
-                <li>React.js</li>
-                <li>Next.js</li>
-                <li>Vue.js</li>
-                <li>Laravel</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>Hapi</li>
-                <li>Tailwind CSS</li>
-                <li>Chakra UI</li>
-                <li>Bootstrap</li>
-                <li>Shadcn/ui</li>
+              <ul className="grid grid-cols-2 list-disc list-inside gap-1 max-sm:text-xs">
+                {contentData.frameworks.map((data, index) => (
+                  <li key={index}>{data}</li>
+                ))}
               </ul>
             </AccordionContent>
           </AccordionItem>
@@ -66,22 +49,10 @@ const AboutMeContent = () => {
               Softwares
             </AccordionTrigger>
             <AccordionContent className="p-2 ps-5">
-              <ul className="grid grid-cols-2 list-disc list-inside gap-1">
-                <li>Visual Studio Code</li>
-                <li>GIT</li>
-                <li>MySQL Workbench</li>
-                <li>pgAdmin 4</li>
-                <li>Wampserver</li>
-                <li>Postgresql</li>
-                <li>Postman</li>
-                <li>Google Environment</li>
-                <li>Microsoft Office</li>
-                <li>Trello</li>
-                <li>Notion</li>
-                <li>Canva</li>
-                <li>Figma</li>
-                <li>ibisPaint</li>
-                <li>GCP</li>
+              <ul className="grid grid-cols-2 list-disc list-inside gap-1 max-sm:text-xs">
+                {contentData.softwares.map((data, index) => (
+                  <li key={index}>{data}</li>
+                ))}
               </ul>
             </AccordionContent>
           </AccordionItem>
