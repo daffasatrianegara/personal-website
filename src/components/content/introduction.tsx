@@ -58,12 +58,13 @@ const IntroductionContent = () => {
             />
           </div>
           <p className="text-base mb-1">
-            Pursuing a Bachelor's degree in Information Technology at{" "}
-            <span className="font-bold">Universitas Negeri Yogyakarta</span>,
-            with expertise in{" "}
-            <span className="font-bold">Fullstack Development</span> and{" "}
-            <span className="font-bold">Cloud Computing</span>. Passionate about
-            driving innovation and collaborating in dynamic team environments.
+            I am a versatile <b>software engineer</b> skilled in{" "}
+            <b>front-end</b> and <b>back-end development</b>, with expertise in{" "}
+            <b>cloud computing</b> using{" "}
+            <b className="text-emerald">Google Cloud Platform</b> (GCP). I
+            create intuitive, engaging interfaces that prioritize seamless user
+            experiences and am driven by curiosity and a commitment to
+            continuous growth.
           </p>
           <div className="mt-5">
             <a

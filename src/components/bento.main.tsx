@@ -1,7 +1,8 @@
 import { Card } from "./ui/card";
 import IntroductionContent from "./content/introduction";
-import CurrentPosition from "./content/current.position";
+import CurrentPositionContent from "./content/current.position";
 import CvContent from "./content/cv";
+import AboutMeContent from "./content/about.me";
 
 const HeadMainComponent: React.FC = () => {
   return (
@@ -19,22 +20,17 @@ const HeadMainComponent: React.FC = () => {
         <div className="md:col-span-2">
           <IntroductionContent />
         </div>
-        <Card className="p-5 md:col-span-1 md:hidden">
-          <p>About Me</p>
-        </Card>
+        <div className="md:col-span-1 md:hidden">
+          <AboutMeContent />
+        </div>
         <div className="grid grid-cols-2 md:grid-cols-1 gap-3 md:col-span-1">
-          <CurrentPosition />
+          <CurrentPositionContent />
           <CvContent />
         </div>
         <div className="grid grid-cols-1 gap-3">
-          <Card className="p-5 md:col-span-1 max-md:hidden">
-            <p>About Me</p>
-            <h1>Lanjut kalo ga mager wak!</h1>
-            <h1>Lanjut kalo ga mager wak!</h1>
-            <h1>Lanjut kalo ga mager wak!</h1>
-            <h1>Lanjut kalo ga mager wak!</h1>
-            <h1>Lanjut kalo ga mager wak!</h1>
-          </Card>
+          <div className="md:col-span-1 max-md:hidden">
+            <AboutMeContent />
+          </div>
           <Card className="p-5 md:col-span-1 md:hidden">
             <p>Experiences</p>
           </Card>

@@ -24,7 +24,7 @@ const NavbarComponent: React.FC = () => {
       </Link>
       <div className="ms-auto items-center flex gap-3">
         <DropdownMenu>
-          <DropdownMenuTrigger className="text-sm text-white">
+          <DropdownMenuTrigger className="text-sm text-white bg-[#0A0A0A] border-[#262626]">
             Hit Me Up!
           </DropdownMenuTrigger>
           <DropdownMenuContent>

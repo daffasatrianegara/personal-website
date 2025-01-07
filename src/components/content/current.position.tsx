@@ -1,6 +1,6 @@
 import { Card } from "../ui/card";
 
-const CurrentPosition = () => {
+const CurrentPositionContent = () => {
   return (
     <Card className="p-5 h-full">
       <div className="w-full flex flex-col md:justify-center h-full">
@@ -17,4 +17,4 @@ const CurrentPosition = () => {
   );
 };
 
-export default CurrentPosition;
+export default CurrentPositionContent;
