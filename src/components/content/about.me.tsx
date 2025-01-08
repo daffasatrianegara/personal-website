@@ -8,7 +8,7 @@ import {
 import AboutData from "@/contents/dynamic-data/about-us.json";
 
 const AboutMeContent = () => {
-  const contentData = AboutData["about-us"]
+  const contentData = AboutData["about-us"];
 
   return (
     <Card className="p-5">

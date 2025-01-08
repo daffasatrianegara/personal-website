@@ -1,9 +1,9 @@
 import { Card } from "../ui/card";
 import { Download } from "lucide-react";
-import CvData from "@/contents/dynamic-data/current-cv.json"
+import CvData from "@/contents/dynamic-data/current-cv.json";
 
 const CvContent = () => {
-  const contentData = CvData["current-and-cv"]
+  const contentData = CvData["current-and-cv"];
   return (
     <Card className="h-full p-5">
       <div className="w-full flex flex-col md:justify-center h-full">
@@ -17,9 +17,7 @@ const CvContent = () => {
             <Download className="w-3 h-3  md:w-5 md:h-5" />
           </a>
         </div>
-        <p className="text-xs md:text-sm mt-2">
-          {contentData["cv-text"]}
-        </p>
+        <p className="text-xs md:text-sm mt-2">{contentData["cv-text"]}</p>
       </div>
     </Card>
   );

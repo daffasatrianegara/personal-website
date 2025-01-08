@@ -1,7 +1,7 @@
 {
-    "current-and-cv" : {
-        "current-work" : "Currently serving as a freelancer and Cloud Computing cohort at Bangkit Academy.",
-        "cv-text" : "Discover my professional journey and skills in detail by downloading my full CV.",
-        "cv-url" : "/files/CV.pdf"
-    }
+  "current-and-cv": {
+    "current-work": "Currently serving as a freelancer and Cloud Computing cohort at Bangkit Academy.",
+    "cv-text": "Discover my professional journey and skills in detail by downloading my full CV.",
+    "cv-url": "/files/CV.pdf"
+  }
 }
