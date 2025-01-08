@@ -4,6 +4,7 @@ import CurrentPositionContent from "./content/current.position";
 import CvContent from "./content/cv";
 import AboutMeContent from "./content/about.me";
 import CertificatesContent from "./content/certificates";
+import ExperiencesContent from "./content/experiences";
 
 const HeadMainComponent: React.FC = () => {
   return (
@@ -32,9 +33,9 @@ const HeadMainComponent: React.FC = () => {
           <div className="md:col-span-1 max-md:hidden">
             <AboutMeContent />
           </div>
-          <Card className="p-5 md:col-span-1 md:hidden">
-            <p>Experiences</p>
-          </Card>
+          <div className="md:col-span-1 md:hidden">
+            <ExperiencesContent />
+          </div>
           <Card className="p-5 md:col-span-1 md:hidden">
             <p>Projects</p>
           </Card>
@@ -42,9 +43,9 @@ const HeadMainComponent: React.FC = () => {
             <CertificatesContent />
           </div>
         </div>
-        <Card className="p-5 md:col-span-2 max-md:hidden">
-          <p>Experiences</p>
-        </Card>
+        <div className="md:col-span-2 max-md:hidden">
+          <ExperiencesContent />
+        </div>
         <Card className="p-5 md:col-span-full max-md:hidden">
           <p>Projects</p>
         </Card>

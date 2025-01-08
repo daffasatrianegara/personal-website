@@ -5,6 +5,7 @@ import LandingPage from "./pages/landing.page";
 import CertificatesPage from "./pages/certificates";
 import ProjectsPage from "./pages/projects";
 import DetailProjectPage from "./pages/detail.project";
+import ExperiencesPage from "./pages/experiences";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/certificates" element={<CertificatesPage />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/projects/:id" element={<DetailProjectPage />} />
+            <Route path="/experiences" element={<ExperiencesPage />} />
           </Routes>
         </Router>
       </ThemeProvider>
