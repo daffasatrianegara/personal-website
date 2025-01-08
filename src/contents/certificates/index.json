@@ -1,0 +1,100 @@
+{
+  "certificates": [
+    {
+      "status": "competency",
+      "title": "Belajar Penerapan Machine Learning dengan Google Cloud",
+      "company_name": "Dicoding Indonesia",
+      "url": "https://www.dicoding.com/certificates/2VX347GNNZYQ",
+      "published_date": "Desember 2024",
+      "end_date": "Desember 2027"
+    },
+    {
+      "status": "competency",
+      "title": "Belajar Dasar AI",
+      "company_name": "Dicoding Indonesia",
+      "url": "https://www.dicoding.com/certificates/81P24MV0NZOY",
+      "published_date": "November 2024",
+      "end_date": "November 2027"
+    },
+    {
+      "status": "competency",
+      "title": "Belajar Dasar Pemrograman JavaScript",
+      "company_name": "Dicoding Indonesia",
+      "url": "https://www.dicoding.com/certificates/MRZMY64OLZYQ",
+      "published_date": "November 2024",
+      "end_date": "November 2027"
+    },
+    {
+      "status": "competency",
+      "title": "Belajar Membuat Aplikasi Back-End untuk Pemula dengan Google Cloud",
+      "company_name": "Dicoding Indonesia",
+      "url": "https://www.dicoding.com/certificates/07Z647ORWPQR",
+      "published_date": "November 2024",
+      "end_date": "November 2027"
+    },
+    {
+      "status": "competency",
+      "title": "Menjadi Google Cloud Engineer",
+      "company_name": "Dicoding Indonesia",
+      "url": "https://www.dicoding.com/certificates/N9ZOYLR5RPG5",
+      "published_date": "November 2024",
+      "end_date": "November 2027"
+    },
+    {
+      "status": "competency",
+      "title": "Belajar Dasar Pemrograman Web",
+      "company_name": "Dicoding Indonesia",
+      "url": "https://www.dicoding.com/certificates/98XW5LKJJPM3",
+      "published_date": "Oktober 2024",
+      "end_date": "Oktober 2027"
+    },
+    {
+      "status": "competency",
+      "title": "Belajar Dasar Git dengan GitHub",
+      "company_name": "Dicoding Indonesia",
+      "url": "https://www.dicoding.com/certificates/2VX34WL8VZYQ",
+      "published_date": "September 2024",
+      "end_date": "September 2027"
+    },
+    {
+      "status": "competency",
+      "title": "Memulai Dasar Pemrograman untuk Menjadi Pengembang Software",
+      "company_name": "Dicoding Indonesia",
+      "url": "https://www.dicoding.com/certificates/07Z64KDYYPQR",
+      "published_date": "September 2024",
+      "end_date": "September 2027"
+    },
+    {
+      "status": "competency",
+      "title": "Pengenalan ke Logika Pemrograman (Programming Logic 101)",
+      "company_name": "Dicoding Indonesia",
+      "url": "https://www.dicoding.com/certificates/N9ZOY3L88PG5",
+      "published_date": "September 2024",
+      "end_date": "September 2027"
+    },
+    {
+      "status": "completion",
+      "title": "AFEKSI.IDN Frontend Web Developer Internship Program",
+      "company_name": "AFEKSI.IDN",
+      "url": "https://drive.google.com/file/d/1_kETwWKYeZfKr1B0a-SGU48tVWUlcw47/view",
+      "published_date": "September 2024",
+      "end_date": ""
+    },
+    {
+      "status": "competency",
+      "title": "BTPN Syariah Fullstack Developer Project Based Internship Program",
+      "company_name": "BTPN Syariah",
+      "url": "https://drive.google.com/file/d/1n7cpvcQAETSLao_aqSFG53KC2PGaE89u/view",
+      "published_date": "Januari 2024",
+      "end_date": ""
+    },
+    {
+      "status": "completion",
+      "title": "Rakamin Academy Fullstack Web Developer Intensive Bootcamp",
+      "company_name": "Rakamin Academy",
+      "url": "https://drive.google.com/file/d/1ypwZmV2f9C-q3X-4vUJJtNh8N-glUjOc/view",
+      "published_date": "Januari 2024",
+      "end_date": ""
+    }
+  ]
+}
