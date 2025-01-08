@@ -3,6 +3,7 @@ import IntroductionContent from "./content/introduction";
 import CurrentPositionContent from "./content/current.position";
 import CvContent from "./content/cv";
 import AboutMeContent from "./content/about.me";
+import CertificatesContent from "./content/certificates";
 
 const HeadMainComponent: React.FC = () => {
   return (
@@ -37,9 +38,9 @@ const HeadMainComponent: React.FC = () => {
           <Card className="p-5 md:col-span-1 md:hidden">
             <p>Projects</p>
           </Card>
-          <Card className="p-5 md:col-span-1">
-            <p>Certificates</p>
-          </Card>
+          <div className="md:col-span-1">
+            <CertificatesContent />
+          </div>
         </div>
         <Card className="p-5 md:col-span-2 max-md:hidden">
           <p>Experiences</p>
