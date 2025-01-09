@@ -1,0 +1,88 @@
+{
+  "experiences": [
+    {
+      "company_name": "Vocational Curriculum and Learning Research Group (VCL)",
+      "position": "Project Lead & Backend Developer",
+      "status": "Contract",
+      "start_date": "July 2024",
+      "end_Date": "January 2025",
+      "text_intro": "Served as Project Leader and Backend Developer for the VCL team, developing an education and teacher certification website using Vue.js for the frontend and Express.js for the backend.",
+      "description_role": [
+        "Developed a backend system for frontend use, which included authentication using JWT, file management with Multer, automated certificate generation using EJS and Puppeteer, and a RESTful API to manage data such as journals, articles, news, karya guru (KG), users profile, teacher forums that emulated platforms like X/Twitter, and courses that included materials, quizzes, assignments, and grades.",
+        "Designed and developed a relational database using DBDiagram and PostgreSQL with Sequelize ORM for backend usage.",
+        "Implemented agile development methodologies using Trello to manage projects from the planning phase through to the development phase."
+      ]
+    },
+    {
+      "company_name": "Perpigi",
+      "position": "Web Developer",
+      "status": "Freelance",
+      "start_date": "November 2024",
+      "end_Date": "December 2024",
+      "text_intro": "Developed the Bangking village profile website for branding and promotion purposes, utilizing native PHP and Bootstrap 5 for website styling.",
+      "description_role": []
+    },
+    {
+      "company_name": "Bangkit Academy 2024 By Google, GoTo, Tokopedia, Traveloka",
+      "position": "Cloud Computing",
+      "status": "MSIB Independent Study Program",
+      "start_date": "September 2024",
+      "end_Date": "December 2024",
+      "text_intro": "Gained expertise in Google Cloud Platform (GCP), DevOps, and related skills (more details will updated ASAP).",
+      "description_role": []
+    },
+    {
+      "company_name": "WiraDana - Bangkit Academy 2024 By Google, GoTo, Tokopedia, Traveloka",
+      "position": "Fullstack Developer & Cloud Engineer",
+      "status": "MSIB Independent Study Program: Final Project",
+      "start_date": "November 2024",
+      "end_Date": "December 2024",
+      "text_intro": "Gained expertise in Google Cloud Platform (GCP), DevOps, and related skills (more details will updated ASAP).",
+      "description_role": []
+    },
+    {
+      "company_name": "Dukuh Bangking, Kelurahan Tambahrejo, Blora",
+      "position": "Web Developer",
+      "status": "Freelance",
+      "start_date": "August 2024",
+      "end_Date": "September 2024",
+      "text_intro": "Developed the Bangking village profile website for branding and promotion purposes, utilizing native PHP and Bootstrap 5 for website styling.",
+      "description_role": []
+    },
+    {
+      "company_name": "Bank BTPN Syariah X Rakamin Academy",
+      "position": "Fullstack Developer",
+      "status": "Project-Based Virtual Intern",
+      "start_date": "December 2023",
+      "end_Date": "January 2024",
+      "text_intro": "Completed an internship as a Full Stack Web Developer at bank BTPN Syariah through the Rakamin Project-Based Internship Program.",
+      "description_role": [
+        "Developed a web application using Vue.js to implement CRUD operations for a To-Do list, utilizing Axios for API requests, JSON-Server as a mock backend, and Bootstrap for responsive website styling.",
+        "Developed a REST API in Go to seamlessly manage user authentication and photo management.",
+        "Designed and Developed a Relational Database Using DBDiagram and PostgreSQL for Back-End Usage."
+      ]
+    },
+    {
+      "company_name": "Rakamin Academy",
+      "position": "Fullstack Web Development",
+      "status": "MSIB Independent Study Program",
+      "start_date": "August 2023",
+      "end_Date": "January 2024",
+      "text_intro": "Participated in a Studi Independen program at Rakamin Academy which is held directly by the Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbud Ristek), with a study period of 5 months. Acquired proficiency in backend development technologies during the bootcamp, including Node.js, Express.js, Docker, Unit Testing, and CI/CD. Additionally, gained expertise in frontend development, mastering React.js, Next.js, and various CSS libraries/frameworks such as Bootstrap, Tailwind, and Chakra UI.",
+      "description_role": []
+    },
+    {
+      "company_name": "CareerConnect - Rakamin Academy",
+      "position": "Fullstack Web Developer",
+      "status": "MSIB Independent Study Program: Final Project",
+      "start_date": "October 2023",
+      "end_Date": "December 2023",
+      "text_intro": "Contributed as a Full Stack Web Developer to the CareerConnect Team for the final presentation project in the Studi Independen (MSIB) program at Rakamin Academy. The project was awarded \"Best Project\" in the MSIB program at Rakamin Academy, outperforming 10 other teams.",
+      "description_role": [
+        "Created RESTful API for the job seekers profile page, implementing functionalities for GET, UPDATE, and DELETE using Node.js and Express.js.",
+        "Developed the user interface for the job seekers profile page using Next.js and Chakra UI for website styling.",
+        "Utilized Git and Trello for effective team collaboration."
+      ]
+    }
+  ]
+}

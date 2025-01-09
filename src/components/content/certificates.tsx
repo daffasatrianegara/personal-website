@@ -5,7 +5,7 @@ const CertificatesContent = () => {
   const contentData = CertificatesData.certificates.slice(0, 3);
 
   return (
-    <Card className="p-5">
+    <Card className="p-5 h-full">
       <p className="text-base md:text-lg font-semibold">Certificates</p>
       <div className="w-full flex flex-col gap-2 mt-2">
         {contentData.map((data, index) => (
