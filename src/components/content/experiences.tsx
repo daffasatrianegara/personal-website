@@ -48,7 +48,7 @@ const ExperiencesContent = () => {
         <div className="flex justify-center mt-3">
           <a
             href="/experiences"
-            className="text-base text-emerald underline md:text-sm hover:text-emeraldhover"
+            className="text-sm text-emerald underline md:text-sm hover:text-emeraldhover"
           >
             Explore More...
           </a>

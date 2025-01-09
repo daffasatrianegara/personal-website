@@ -30,7 +30,7 @@ const CertificatesContent = () => {
         <div className="flex justify-center">
           <a
             href="/certificates"
-            className="text-base text-emerald underline md:text-sm hover:text-emeraldhover"
+            className="text-sm text-emerald underline md:text-sm hover:text-emeraldhover"
           >
             Explore More...
           </a>
