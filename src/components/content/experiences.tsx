@@ -1,8 +1,10 @@
 import { Card } from "../ui/card";
 import ExperiencesData from "@/contents/experiences/index.json";
 
-const ExperiencesContent = () => {
-  const contentData = ExperiencesData.experiences.slice(0, 8);
+const ExperiencesContent = ({
+  number_of_project,
+}: Readonly<{ number_of_project: number }>) => {
+  const contentData = ExperiencesData.experiences.slice(0, number_of_project);
   return (
     <Card className="p-5 h-full">
       <p className="text-base md:text-lg font-semibold">Experiences</p>

@@ -34,7 +34,7 @@ const HeadMainComponent: React.FC = () => {
             <AboutMeContent />
           </div>
           <div className="md:col-span-1 md:hidden">
-            <ExperiencesContent />
+            <ExperiencesContent number_of_project={3} />
           </div>
           <Card className="p-5 md:col-span-1 md:hidden">
             <p>Projects</p>
@@ -44,7 +44,7 @@ const HeadMainComponent: React.FC = () => {
           </div>
         </div>
         <div className="md:col-span-2 max-md:hidden">
-          <ExperiencesContent />
+          <ExperiencesContent number_of_project={8} />
         </div>
         <Card className="p-5 md:col-span-full max-md:hidden">
           <p>Projects</p>
