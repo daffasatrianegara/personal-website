@@ -2,9 +2,12 @@ import { Card } from "../ui/card";
 import ExperiencesData from "@/contents/experiences/index.json";
 
 const ExperiencesContent = ({
-  number_of_project,
-}: Readonly<{ number_of_project: number }>) => {
-  const contentData = ExperiencesData.experiences.slice(0, number_of_project);
+  number_of_experiences,
+}: Readonly<{ number_of_experiences: number }>) => {
+  const contentData = ExperiencesData.experiences.slice(
+    0,
+    number_of_experiences,
+  );
   return (
     <Card className="p-5 h-full">
       <p className="text-base md:text-lg font-semibold">Experiences</p>
@@ -25,24 +28,6 @@ const ExperiencesContent = ({
               <p className="text-xs md:text-sm text-gray-400 dark:text-gray-300 my-0.5">
                 {data.company_name}
               </p>
-              {/* <p className="text-xs md:text-sm font-normal text-gray-500 dark:text-gray-400">
-                {data.text_intro} <br />
-                {data.description_role.length > 0 ? (
-                  <ul className="mt-1 ms-2">
-                    {data.description_role.map((data, index) => (
-                      <li
-                        key={index}
-                        className="grid grid-cols-[auto,1fr] gap-x-2 items-start my-1"
-                      >
-                        <span className="list-disc">•</span>
-                        <span>{data}</span>
-                      </li>
-                    ))}
-                  </ul>
-                ) : (
-                  <></>
-                )}
-              </p> */}
             </li>
           ))}
         </ol>

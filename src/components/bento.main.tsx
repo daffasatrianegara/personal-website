@@ -1,10 +1,10 @@
-import { Card } from "./ui/card";
 import IntroductionContent from "./content/introduction";
 import CurrentPositionContent from "./content/current.position";
 import CvContent from "./content/cv";
 import AboutMeContent from "./content/about.me";
 import CertificatesContent from "./content/certificates";
 import ExperiencesContent from "./content/experiences";
+import ProjectsContent from "./content/projects";
 
 const HeadMainComponent: React.FC = () => {
   return (
@@ -34,21 +34,21 @@ const HeadMainComponent: React.FC = () => {
             <AboutMeContent />
           </div>
           <div className="md:col-span-1 md:hidden">
-            <ExperiencesContent number_of_project={3} />
+            <ExperiencesContent number_of_experiences={3} />
           </div>
-          <Card className="p-5 md:col-span-1 md:hidden">
-            <p>Projects</p>
-          </Card>
+          <div className="md:col-span-1 md:hidden">
+            <ProjectsContent number_of_projects={3} />
+          </div>
           <div className="md:col-span-1">
             <CertificatesContent />
           </div>
         </div>
         <div className="md:col-span-2 max-md:hidden">
-          <ExperiencesContent number_of_project={8} />
+          <ExperiencesContent number_of_experiences={8} />
         </div>
-        <Card className="p-5 md:col-span-full max-md:hidden">
-          <p>Projects</p>
-        </Card>
+        <div className="md:col-span-full max-md:hidden">
+          <ProjectsContent number_of_projects={3} />
+        </div>
       </div>
     </>
   );

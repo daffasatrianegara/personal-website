@@ -18,7 +18,7 @@ const PageWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <motion.div
     initial={{ opacity: 0, y: 50 }}
     animate={{ opacity: 10, y: 0 }}
-    exit={{ opacity: 0, y: -20 }}
+    exit={{ opacity: 0, y: -10 }}
     transition={{ duration: 1 }}
   >
     {children}
