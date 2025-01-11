@@ -3,6 +3,8 @@ import { Card } from "../ui/card";
 const ProjectsContent = ({
   number_of_projects,
 }: Readonly<{ number_of_projects: number }>) => {
+  const sementara = number_of_projects
+  console.log(sementara);
   return (
     <Card className="p-5">
       <p className="text-base md:text-lg font-semibold">Projects</p>
