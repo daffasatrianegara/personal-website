@@ -25,6 +25,15 @@ const ProjectsContent = ({
               <p className=""></p>
             </div> */}
           </div>
+          <div className="w-full border-b my-1"></div>
+          <div className="flex justify-center mt-3">
+            <a
+              href="/projects"
+              className="text-sm text-emerald underline md:text-sm hover:text-emeraldhover"
+            >
+              Explore More...
+            </a>
+          </div>
         </div>
       </div>
     </Card>
