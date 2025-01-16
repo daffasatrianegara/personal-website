@@ -11,6 +11,7 @@ const ProjectsContent = ({
       <div className="mt-2 md:mt-4 w-full">
         <div className="p-1">
           <div className="grid grid-cols-6 md:grid-cols-5 gap-3 md:gap-5 mb-5">
+            {/* ini looping data projek */}
             <div className="col-span-2 max-[457px]:col-span-6 md:col-span-1">
               <img
                 className="w-full object-cover rounded-md"
