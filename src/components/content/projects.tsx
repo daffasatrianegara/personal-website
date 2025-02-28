@@ -37,9 +37,11 @@ const ProjectsContent = ({
                 assumenda nostrum dolores esse velit!
               </p>
               <div className="w-full flex flex-wrap my-3 gap-2">
-                <Badge className="bg-emerald hover:bg-emeraldhover">PHP</Badge>
                 <Badge className="bg-emerald hover:bg-emeraldhover">
-                  MySQL
+                  <p className="text-[#FAFAFA]">PHP</p>
+                </Badge>
+                <Badge className="bg-emerald hover:bg-emeraldhover">
+                  <p className="text-[#FAFAFA]">MySQL</p>
                 </Badge>
               </div>
               <div className="flex w-full mt-3 gap-2">

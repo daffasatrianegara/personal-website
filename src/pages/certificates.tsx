@@ -38,8 +38,21 @@ const CertificatesPage = () => {
               href={data.url}
               target="_blank"
             >
-              <span className="text-emerald">Certificate of {data.status}</span>{" "}
-              - {data.title}
+              {data.status === "badge" ? (
+                <>
+                  <span className="text-emerald">
+                    Completion & skill {data.status}s
+                  </span>{" "}
+                  - {data.title}
+                </>
+              ) : (
+                <>
+                  <span className="text-emerald">
+                    Certificate of {data.status}
+                  </span>{" "}
+                  - {data.title}
+                </>
+              )}
             </a>
             <p className="text-sm my-1">
               {data.end_date === ""

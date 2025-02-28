@@ -5,7 +5,7 @@
       "position": "Project Lead & Backend Developer",
       "status": "Contract",
       "start_date": "July 2024",
-      "end_Date": "January 2025",
+      "end_Date": "Now",
       "text_intro": "Served as Project Leader and Backend Developer for the VCL team, developing an education and teacher certification website using Vue.js for the frontend and Express.js for the backend.",
       "description_role": [
         "Developed a backend system for frontend use, which included authentication using JWT, file management with Multer, automated certificate generation using EJS and Puppeteer, and a RESTful API to manage data such as journals, articles, news, karya guru (KG), users profile, teacher forums that emulated platforms like X/Twitter, and courses that included materials, quizzes, assignments, and grades.",
@@ -15,12 +15,18 @@
     },
     {
       "company_name": "Perpigi",
-      "position": "Web Developer",
+      "position": "Fullstack Web Developer",
       "status": "Freelance",
       "start_date": "November 2024",
       "end_Date": "December 2024",
-      "text_intro": "Developed the Bangking village profile website for branding and promotion purposes, utilizing native PHP and Bootstrap 5 for website styling.",
-      "description_role": []
+      "text_intro": "Developed the Perpigi organization profile website. aimed at branding and promotion purposes.",
+      "description_role": [
+        "Developed an organization profile website using native PHP and Bootstrap 5, incorporating essential information such as the organization's address, email, phone number, and social media links.",
+        "Designed and implemented a dynamic news module for publishing and managing updates on Perpigi’s activities and events.",
+        "Created a dedicated page for the organization's logo philosophy, enhancing brand identity and engagement.",
+        "Developed an admin dashboard as a Content Management System (CMS) to facilitate seamless content management.",
+        "Enabled administrators to manage key website content, including news, logo philosophy, header images (displayed as a carousel on the landing page), and general organization information."
+      ]
     },
     {
       "company_name": "Bangkit Academy 2024 By Google, GoTo, Tokopedia, Traveloka",
@@ -28,30 +34,58 @@
       "status": "MSIB Independent Study Program",
       "start_date": "September 2024",
       "end_Date": "December 2024",
-      "text_intro": "Gained expertise in Google Cloud Platform (GCP), DevOps, and related skills (more details will updated ASAP).",
-      "description_role": []
+      "text_intro": "Participated in the MSIB program at Bangkit Academy, organized by the Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbud Ristek), with a 4-month study period. Selected from 45,841 applicants across Indonesia, among 4,636 participants.",
+      "description_role": [
+        "Acquired proficiency in Cloud Computing technologies using Google Cloud Platform (GCP) through study, covering courses on Basic Web Development, Google Cloud Computing Foundations, Google Cloud Engineer, DevOps Engineer, Site Reliability Engineering (SRE), Basic JavaScript, and more.",
+        "Collaborated with the WiraDana team to develop a website designed to help UMKM owners connect with individual or corporate investors. This project was instrumental in qualifying for the capstone project."
+      ]
     },
     {
       "company_name": "WiraDana - Bangkit Academy 2024 By Google, GoTo, Tokopedia, Traveloka",
-      "position": "Fullstack Developer & Cloud Engineer",
+      "position": "Fullstack Web Developer & Cloud Engineer",
       "status": "MSIB Independent Study Program: Final Project",
       "start_date": "November 2024",
       "end_Date": "December 2024",
-      "text_intro": "Gained expertise in Google Cloud Platform (GCP), DevOps, and related skills (more details will updated ASAP).",
-      "description_role": []
+      "text_intro": "Contributed as a Fullstack Web Developer & Cloud Engineer to the WiraDana team for the capstone project in the Studi Independen (MSIB) program at Bangkit Academy.",
+      "description_role": [
+        "Developed WiraDana, a platform enabling UMKM owners to request funding with returns for investors, built with Next.js (TypeScript), Tailwind CSS, Shadcn UI for styling, and PostgreSQL as the database.",
+        "Designed and implemented core platform pages, including UMKM funding listings, an interactive activity feed with Instagram-like posts where UMKM can share updates (photos and captions), an investor dashboard displaying their investments and funding details, and a user profile system storing personal information (name, gender, etc.) with a bank account input section for return distribution.",
+        "Integrated a sentiment analysis system to categorize investor comments as positive, neutral, or negative, enhancing engagement insights.",
+        "Built a user authentication system with role-based registration, allowing users to register as either UMKM owners or investors.",
+        "Deployed and managed cloud infrastructure on Google Cloud Platform (GCP), utilizing Cloud SQL for database management, Cloud Storage for media and financial report storage, Cloud Run for hosting the Next.js application, and App Engine for deploying the ML-based sentiment analysis service."
+      ]
     },
     {
       "company_name": "Dukuh Bangking, Kelurahan Tambahrejo, Blora",
-      "position": "Web Developer",
+      "position": "Fullstack Web Developer",
       "status": "Freelance",
       "start_date": "August 2024",
       "end_Date": "September 2024",
-      "text_intro": "Developed the Bangking village profile website for branding and promotion purposes, utilizing native PHP and Bootstrap 5 for website styling.",
-      "description_role": []
+      "text_intro": "Developed the Dukuh Bangking village profile website for branding and promotion purposes.",
+      "description_role": [
+        "Developed a dynamic village profile website using native PHP and Bootstrap 5, providing essential information such as village address, contact details, and population statistics.",
+        "Implemented a comprehensive admin dashboard as a Content Management System (CMS) to manage dynamic data, including news, logo philosophy, village facilities, local UMKM, and organizational structure from RW to RT.",
+        "Designed and integrated a structured news section to publish updates and activities related to Dukuh Bangking.",
+        "Created a dedicated page for the village's logo philosophy to enhance identity and engagement.",
+        "Developed a public contribution system allowing residents to submit news and UMKM data through dedicated forms, with an approval mechanism requiring admin verification before publication."
+      ]
+    },
+    {
+      "company_name": "AFEKSI.IDN",
+      "position": "Frontend Web Developer",
+      "status": "Internship",
+      "start_date": "April 2024",
+      "end_Date": "July 2024",
+      "text_intro": "Completed an internship as a Frontend Web Developer at AFEKSI.IDN Startup, utilizing Laravel 10 technology and Bootstrap 5 for website styling.",
+      "description_role": [
+        "Developed an Admin Dashboard for the AFEKSI website to efficiently manage user data. The dashboard includes sections for handling orders and payments, managing articles, events, guest stars, counselors, psychology content, testimonials, and other related information.",
+        "Redesigned the Counseling Services page to enhance user experience and facilitate access to mental health and relationship consultation services.",
+        "Collaborated with the frontend, backend, and UI/UX teams using Notion to streamline project development and enhance communication."
+      ]
     },
     {
       "company_name": "Bank BTPN Syariah X Rakamin Academy",
-      "position": "Fullstack Developer",
+      "position": "Fullstack Web Developer",
       "status": "Project-Based Virtual Intern",
       "start_date": "December 2023",
       "end_Date": "January 2024",
@@ -68,8 +102,12 @@
       "status": "MSIB Independent Study Program",
       "start_date": "August 2023",
       "end_Date": "January 2024",
-      "text_intro": "Participated in a Studi Independen program at Rakamin Academy which is held directly by the Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbud Ristek), with a study period of 5 months. Acquired proficiency in backend development technologies during the bootcamp, including Node.js, Express.js, Docker, Unit Testing, and CI/CD. Additionally, gained expertise in frontend development, mastering React.js, Next.js, and various CSS libraries/frameworks such as Bootstrap, Tailwind, and Chakra UI.",
-      "description_role": []
+      "text_intro": "Participated in the MSIB program at Rakamin Academy, organized by the Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbud Ristek), with a 5-month study period.",
+      "description_role": [
+        "Acquired proficiency in backend development technologies during the bootcamp, including Node.js, Express.js, Docker, Unit Testing, and CI/CD. Additionally, developed expertise in frontend technologies, mastering React.js, Next.js, and various CSS libraries/frameworks such as Bootstrap, Tailwind, and Chakra UI.",
+        "Gained expertise in Git version control for effective team collaboration in project development.",
+        "Collaborated in developing CareerConnect, a website designed for job posting and applications, which played a pivotal role in qualifying for the final project presentation."
+      ]
     },
     {
       "company_name": "CareerConnect - Rakamin Academy",

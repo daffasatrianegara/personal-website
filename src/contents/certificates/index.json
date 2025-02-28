@@ -1,6 +1,14 @@
 {
   "certificates": [
     {
+      "status": "badge",
+      "title": "Google Cloud Skill Boost",
+      "company_name": "Google",
+      "url": "https://www.cloudskillsboost.google/public_profiles/34d9b69b-52e0-4cfc-8f8e-5abc3d603bd8",
+      "published_date": "October 2024",
+      "end_date": ""
+    },
+    {
       "status": "competency",
       "title": "Belajar Penerapan Machine Learning dengan Google Cloud",
       "company_name": "Dicoding Indonesia",
