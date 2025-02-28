@@ -15,7 +15,7 @@ const HeadMainComponent: React.FC = () => {
         </p>
         <p className="font-bold text-lg sm:text-2xl">
           Showcasing Skills & Creativity to Deliver Outstanding Digital
-          Solutions.
+          Solutions.sss
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
