@@ -29,18 +29,6 @@
       ]
     },
     {
-      "company_name": "Bangkit Academy 2024 By Google, GoTo, Tokopedia, Traveloka",
-      "position": "Cloud Computing",
-      "status": "MSIB Independent Study Program",
-      "start_date": "September 2024",
-      "end_Date": "December 2024",
-      "text_intro": "Participated in the MSIB program at Bangkit Academy, organized by the Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbud Ristek), with a 4-month study period. Selected from 45,841 applicants across Indonesia, among 4,636 participants.",
-      "description_role": [
-        "Acquired proficiency in Cloud Computing technologies using Google Cloud Platform (GCP) through study, covering courses on Basic Web Development, Google Cloud Computing Foundations, Google Cloud Engineer, DevOps Engineer, Site Reliability Engineering (SRE), Basic JavaScript, and more.",
-        "Collaborated with the WiraDana team to develop a website designed to help UMKM owners connect with individual or corporate investors. This project was instrumental in qualifying for the capstone project."
-      ]
-    },
-    {
       "company_name": "WiraDana - Bangkit Academy 2024 By Google, GoTo, Tokopedia, Traveloka",
       "position": "Fullstack Web Developer & Cloud Engineer",
       "status": "MSIB Independent Study Program: Final Project",
@@ -53,6 +41,18 @@
         "Integrated a sentiment analysis system to categorize investor comments as positive, neutral, or negative, enhancing engagement insights.",
         "Built a user authentication system with role-based registration, allowing users to register as either UMKM owners or investors.",
         "Deployed and managed cloud infrastructure on Google Cloud Platform (GCP), utilizing Cloud SQL for database management, Cloud Storage for media and financial report storage, Cloud Run for hosting the Next.js application, and App Engine for deploying the ML-based sentiment analysis service."
+      ]
+    },
+    {
+      "company_name": "Bangkit Academy 2024 By Google, GoTo, Tokopedia, Traveloka",
+      "position": "Cloud Computing",
+      "status": "MSIB Independent Study Program",
+      "start_date": "September 2024",
+      "end_Date": "December 2024",
+      "text_intro": "Participated in the MSIB program at Bangkit Academy, organized by the Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbud Ristek), with a 4-month study period. Selected from 45,841 applicants across Indonesia, among 4,636 participants.",
+      "description_role": [
+        "Acquired proficiency in Cloud Computing technologies using Google Cloud Platform (GCP) through study, covering courses on Basic Web Development, Google Cloud Computing Foundations, Google Cloud Engineer, DevOps Engineer, Site Reliability Engineering (SRE), Basic JavaScript, and more.",
+        "Collaborated with the WiraDana team to develop a website designed to help UMKM owners connect with individual or corporate investors. This project was instrumental in qualifying for the capstone project."
       ]
     },
     {
