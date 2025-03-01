@@ -11,7 +11,7 @@ import CertificatesData from "@/contents/certificates/index.json";
 
 const CertificatesPage = () => {
   const contentData = CertificatesData.certificates;
-  
+
   return (
     <MainLayout title="Verified Certifications | Muhammad Daffa Satria Negara">
       <Breadcrumb>
