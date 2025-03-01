@@ -8,6 +8,7 @@ const ExperiencesContent = ({
     0,
     number_of_experiences,
   );
+
   return (
     <Card className="p-5 h-full">
       <p className="text-base md:text-lg font-semibold">Experiences</p>

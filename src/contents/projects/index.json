@@ -1,7 +1,66 @@
 {
-    "projects" : [
-        {
-            "id": 1
-        }
-    ]
+  "projects": [
+    {
+      "id": 1,
+      "photos_url": [
+        "/img/projects/wiradana-1.png",
+        "/img/projects/wiradana-2.png",
+        "/img/projects/wiradana-3.png"
+      ],
+      "name": "WiraDana",
+      "description": "Wiradana is an innovative web-based platform designed to empower MSMEs by bridging the gap between small business owners and potential investors. As a dynamic digital hub, Wiradana equips entrepreneurs with the tools and opportunities they need to showcase their business potential, attract funding, and drive sustainable growth. By facilitating seamless connections between businesses and investors, the platform accelerates business expansion while contributing to broader economic development.",
+      "technologies": ["Next.js", "Tailwind", "Shadcn", "Prisma", "PostgreSQL"],
+      "detail_file": "./details/1.md",
+      "url": {
+        "repository": "https://github.com/Capstone-WiraDana/WiraDana-Web",
+        "website": null
+      }
+    },
+    {
+      "id": 2,
+      "photos_url": ["/img/projects/perpigi-1.png"],
+      "name": "Perpigi Organization Website Profile",
+      "description": "The Perpigi Organization website is an online platform designed to promote and provide information about the Perpigi organization to the public. This site serves as an organizational profile, offering comprehensive details about Perpigi's vision, mission, programs, and activities. Perpigi is an organization focused on developing the capacity of geo-tourism guides and interpreters. The website aims to enhance the organization's digital presence and facilitate easy access to information for members, prospective members, and the general public.",
+      "technologies": ["PHP", "Bootstrap 5", "MySQL"],
+      "detail_file": "./details/2.md",
+      "url": {
+        "repository": null,
+        "website": "https://perpigi.site/"
+      }
+    },
+    {
+      "id": 3,
+      "photos_url": [
+        "/img/projects/bangking-1.png",
+        "/img/projects/bangking-2.png",
+        "/img/projects/bangking-3.png",
+        "/img/projects/bangking-4.png",
+        "/img/projects/bangking-5.png",
+        "/img/projects/bangking-6.png"
+      ],
+      "name": "Bangking Village Website Profile",
+      "description": "The Dukuh Bangking Village Profile Website is a dynamic digital platform designed to enhance the village’s branding and promotion by providing essential information such as its address, contact details, and population statistics. Featuring a user-friendly interface and a robust Content Management System (CMS), the website enables efficient management of dynamic data, including news, village facilities, local UMKM (Micro, Small, and Medium Enterprises), organizational structure (from RW to RT), and the philosophy behind the village logo. Visitors can explore a dedicated UMKM section to promote local economic activities, stay updated with the latest village news, and gain insights into the meaning behind the village logo, reinforcing its identity and engagement. Additionally, the platform highlights available village facilities, offering a comprehensive view of Dukuh Bangking’s infrastructure and resources. To maintain accuracy and reliability, the website also includes contribution forms for adding news and UMKM data, which require admin approval before publication.",
+      "technologies": ["PHP", "Bootstrap 5", "MySQL"],
+      "detail_file": "./details/3.md",
+      "url": {
+        "repository": null,
+        "website": "https://dukuhbangking.my.id/"
+      }
+    },
+    {
+      "id": 4,
+      "photos_url": ["/img/projects/perpigi-1.png"],
+      "name": "Bangking Village Website Profile",
+      "description": "The Dukuh Bangking Village Profile Website is a dynamic digital platform designed to enhance the village’s branding and promotion by providing essential information such as its address, contact details, and population statistics. Featuring a user-friendly interface and a robust Content Management System (CMS), the website enables efficient management of dynamic data, including news, village facilities, local UMKM (Micro, Small, and Medium Enterprises), organizational structure (from RW to RT), and the philosophy behind the village logo. Visitors can explore a dedicated UMKM section to promote local economic activities, stay updated with the latest village news, and gain insights into the meaning behind the village logo, reinforcing its identity and engagement. Additionally, the platform highlights available village facilities, offering a comprehensive view of Dukuh Bangking’s infrastructure and resources. To maintain accuracy and reliability, the website also includes contribution forms for adding news and UMKM data, which require admin approval before publication.",
+      "technologies": ["PHP", "Bootstrap 5", "MySQL"],
+      "detail_file": "./details/4.md",
+      "url": {
+        "repository": {
+          "frontend": "",
+          "backend": ""
+        },
+        "website": "https://dukuhbangking.my.id/"
+      }
+    }
+  ]
 }
