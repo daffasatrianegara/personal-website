@@ -43,7 +43,7 @@ const ProjectsContent = ({
                   <p className="text-base md:text-lg font-semibold">
                     {data.name}
                   </p>
-                  <p className="text-xs md:text-sm text-gray-400 dark:text-gray-300 line-clamp-5">
+                  <p className="text-xs md:text-sm text-gray-400 dark:text-gray-300 line-clamp-5 text-justify">
                     {data.description}
                   </p>
                   <div className="w-full flex flex-wrap my-3 gap-2">

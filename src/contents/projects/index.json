@@ -9,7 +9,13 @@
       ],
       "name": "WiraDana",
       "description": "Wiradana is an innovative web-based platform designed to empower MSMEs by bridging the gap between small business owners and potential investors. As a dynamic digital hub, Wiradana equips entrepreneurs with the tools and opportunities they need to showcase their business potential, attract funding, and drive sustainable growth. By facilitating seamless connections between businesses and investors, the platform accelerates business expansion while contributing to broader economic development.",
-      "technologies": ["Next.js", "Tailwind", "Shadcn", "Prisma", "PostgreSQL"],
+      "technologies": [
+        "Next.js",
+        "Tailwind",
+        "Shadcn",
+        "Prisma ORM",
+        "PostgreSQL"
+      ],
       "detail_file": "./details/1.md",
       "url": {
         "repository": "https://github.com/Capstone-WiraDana/WiraDana-Web",
@@ -18,7 +24,12 @@
     },
     {
       "id": 2,
-      "photos_url": ["/img/projects/perpigi-1.png"],
+      "photos_url": [
+        "/img/projects/perpigi-1.png",
+        "/img/projects/perpigi-2.png",
+        "/img/projects/perpigi-3.png",
+        "/img/projects/perpigi-4.png"
+      ],
       "name": "Perpigi Organization Website Profile",
       "description": "The Perpigi Organization website is an online platform designed to promote and provide information about the Perpigi organization to the public. This site serves as an organizational profile, offering comprehensive details about Perpigi's vision, mission, programs, and activities. Perpigi is an organization focused on developing the capacity of geo-tourism guides and interpreters. The website aims to enhance the organization's digital presence and facilitate easy access to information for members, prospective members, and the general public.",
       "technologies": ["PHP", "Bootstrap 5", "MySQL"],
@@ -49,17 +60,31 @@
     },
     {
       "id": 4,
-      "photos_url": ["/img/projects/perpigi-1.png"],
-      "name": "Bangking Village Website Profile",
-      "description": "The Dukuh Bangking Village Profile Website is a dynamic digital platform designed to enhance the village’s branding and promotion by providing essential information such as its address, contact details, and population statistics. Featuring a user-friendly interface and a robust Content Management System (CMS), the website enables efficient management of dynamic data, including news, village facilities, local UMKM (Micro, Small, and Medium Enterprises), organizational structure (from RW to RT), and the philosophy behind the village logo. Visitors can explore a dedicated UMKM section to promote local economic activities, stay updated with the latest village news, and gain insights into the meaning behind the village logo, reinforcing its identity and engagement. Additionally, the platform highlights available village facilities, offering a comprehensive view of Dukuh Bangking’s infrastructure and resources. To maintain accuracy and reliability, the website also includes contribution forms for adding news and UMKM data, which require admin approval before publication.",
-      "technologies": ["PHP", "Bootstrap 5", "MySQL"],
+      "photos_url": [
+        "/img/projects/cc-1.png",
+        "/img/projects/cc-2.png",
+        "/img/projects/cc-3.png",
+        "/img/projects/cc-4.png",
+        "/img/projects/cc-5.png",
+        "/img/projects/cc-6.png",
+        "/img/projects/cc-7.png"
+      ],
+      "name": "CareerConnect",
+      "description": "CareerConnect is a dynamic digital platform that bridges the gap between job seekers and companies, offering seamless connections in the job market. It features two distinct roles: Job Seeker and Company, each with tailored functionalities. Job seekers can explore and apply for job listings that match their skills and interests, upload essential documents like CVs and portfolios, and track their application status—whether accepted, rejected, or under review—through their dashboard. Meanwhile, companies can post job vacancies, manage applications efficiently, and access detailed profiles of job seekers, including personal information, CVs, and portfolios, to make informed hiring decisions. They can also filter and manage applicant data, marking candidates as accepted or rejected. By streamlining the recruitment process, CareerConnect provides a comprehensive and user-friendly experience for both job seekers and employers.",
+      "technologies": [
+        "Next.js",
+        "Express.js",
+        "Chakra UI",
+        "Sequelize ORM",
+        "PostgreSQL"
+      ],
       "detail_file": "./details/4.md",
       "url": {
         "repository": {
-          "frontend": "",
-          "backend": ""
+          "frontend": "https://github.com/CareerConnect-Rakamin/front-end-careerConnect",
+          "backend": "https://github.com/CareerConnect-Rakamin/back-end-careerConnect"
         },
-        "website": "https://dukuhbangking.my.id/"
+        "website": null
       }
     }
   ]
