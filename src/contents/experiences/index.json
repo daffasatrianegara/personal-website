@@ -3,6 +3,7 @@
     {
       "company_name": "Vocational Curriculum and Learning Research Group (VCL)",
       "position": "Project Lead & Backend Developer",
+      "position_type": ["backend developer", "project leader"],
       "status": "Contract",
       "start_date": "July 2024",
       "end_Date": "Now",
@@ -16,6 +17,7 @@
     {
       "company_name": "Perpigi",
       "position": "Fullstack Web Developer",
+      "position_type": ["fullstack developer", "web developer"],
       "status": "Freelance",
       "start_date": "November 2024",
       "end_Date": "December 2024",
@@ -31,6 +33,7 @@
     {
       "company_name": "WiraDana - Bangkit Academy 2024 By Google, GoTo, Tokopedia, Traveloka",
       "position": "Fullstack Web Developer & Cloud Engineer",
+      "position_type": ["fullstack developer", "cloud engineer"],
       "status": "MSIB Independent Study Program: Final Project",
       "start_date": "November 2024",
       "end_Date": "December 2024",
@@ -46,6 +49,7 @@
     {
       "company_name": "Bangkit Academy 2024 By Google, GoTo, Tokopedia, Traveloka",
       "position": "Cloud Computing",
+      "position_type": ["cloud engineer", "backend developer"],
       "status": "MSIB Independent Study Program",
       "start_date": "September 2024",
       "end_Date": "December 2024",
@@ -58,6 +62,7 @@
     {
       "company_name": "Dukuh Bangking, Kelurahan Tambahrejo, Blora",
       "position": "Fullstack Web Developer",
+      "position_type": ["fullstack developer", "web developer"],
       "status": "Freelance",
       "start_date": "August 2024",
       "end_Date": "September 2024",
@@ -73,6 +78,7 @@
     {
       "company_name": "AFEKSI.IDN",
       "position": "Frontend Web Developer",
+      "position_type": ["frontend developer"],
       "status": "Internship",
       "start_date": "April 2024",
       "end_Date": "July 2024",
@@ -86,6 +92,7 @@
     {
       "company_name": "Bank BTPN Syariah X Rakamin Academy",
       "position": "Fullstack Web Developer",
+      "position_type": ["fullstack developer", "frontend developer", "backend developer"],
       "status": "Project-Based Virtual Intern",
       "start_date": "December 2023",
       "end_Date": "January 2024",
@@ -99,6 +106,7 @@
     {
       "company_name": "Rakamin Academy",
       "position": "Fullstack Web Development",
+      "position_type": ["fullstack developer", "frontend developer", "backend developer"],
       "status": "MSIB Independent Study Program",
       "start_date": "August 2023",
       "end_Date": "January 2024",
@@ -112,6 +120,7 @@
     {
       "company_name": "CareerConnect - Rakamin Academy",
       "position": "Fullstack Web Developer",
+      "position_type": ["fullstack developer", "frontend developer", "backend developer"],
       "status": "MSIB Independent Study Program: Final Project",
       "start_date": "October 2023",
       "end_Date": "December 2023",
