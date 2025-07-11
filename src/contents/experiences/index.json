@@ -1,12 +1,22 @@
 {
   "experiences": [
     {
+      "company_name": "Dua Empat Tujuh, PT (SOLUSI247)",
+      "position": "Frontend Web Developer",
+      "position_type": ["frontend developer"],
+      "status": "Internship",
+      "start_date": "April 2025",
+      "end_Date": "Now",
+      "text_intro": "Currently gaining hands-on experience as a Frontend Developer Intern, focusing on building SecGaOne, an innovative solution in the cybersecurity domain.",
+      "description_role": []
+    },
+    {
       "company_name": "Vocational Curriculum and Learning Research Group (VCL)",
       "position": "Project Lead & Backend Developer",
       "position_type": ["backend developer", "project leader"],
       "status": "Contract",
       "start_date": "July 2024",
-      "end_Date": "Now",
+      "end_Date": "February 2025",
       "text_intro": "Served as Project Leader and Backend Developer for the VCL team, developing an education and teacher certification website using Vue.js for the frontend and Express.js for the backend.",
       "description_role": [
         "Developed a backend system for frontend use, which included authentication using JWT, file management with Multer, automated certificate generation using EJS and Puppeteer, and a RESTful API to manage data such as journals, articles, news, karya guru (KG), users profile, teacher forums that emulated platforms like X/Twitter, and courses that included materials, quizzes, assignments, and grades.",
