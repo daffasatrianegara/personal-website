@@ -13,7 +13,9 @@ const CurrentPositionContent = () => {
             <span className="rounded-full bg-emerald w-2 h-2 md:w-3 md:h-3"></span>
           </div>
         </div>
-        <p className="text-sm mt-2 text-justify">{contentData["current-work"]}</p>
+        <p className="text-sm mt-2 text-justify">
+          {contentData["current-work"]}
+        </p>
       </div>
     </Card>
   );
