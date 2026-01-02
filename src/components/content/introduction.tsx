@@ -56,7 +56,7 @@ const IntroductionContent = () => {
             />
           </div>
           <p
-            className="text-sm md:text-base mb-1"
+            className="text-sm md:text-base mb-1 text-justify"
             dangerouslySetInnerHTML={{ __html: contentData["text-main"] }}
           ></p>
           <div className="mt-5">

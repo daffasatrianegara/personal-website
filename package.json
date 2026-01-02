@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npx prettier . --write && vite",
+    "dev": "vite",
     "build": "npx prettier . --write && npx prettier . --check && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",

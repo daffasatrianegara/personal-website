@@ -25,7 +25,7 @@ const HeadMainComponent: React.FC = () => {
         <div className="md:col-span-1 md:hidden">
           <AboutMeContent />
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-1 gap-3 md:col-span-1">
+        <div className="grid grid-cols-1 gap-3 md:col-span-1">
           <CurrentPositionContent />
           <CvContent />
         </div>

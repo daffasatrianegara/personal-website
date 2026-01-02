@@ -13,7 +13,7 @@ const AboutMeContent = () => {
   return (
     <Card className="p-5 h-full">
       <p className="text-base md:text-lg font-semibold">About Me</p>
-      <p className="mt-2 text-sm">{contentData["text-main"]}</p>
+      <p className="mt-2 text-sm text-justify">{contentData["text-main"]}</p>
       <div className="my-3 w-full border-b border-gray-200 dark:border-gray-800"></div>
       <p className="text-sm">
         I work with a range of cutting-edge technologies, including:

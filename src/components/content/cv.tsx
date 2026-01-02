@@ -8,16 +8,16 @@ const CvContent = () => {
     <Card className="h-full p-5">
       <div className="w-full flex flex-col md:justify-center h-full">
         <div className="flex gap-3 items-center">
-          <p className="text-base md:text-lg font-semibold">CV</p>
+          <p className="text-lg md:text-xl font-semibold">CV</p>
           <a
             href={contentData["cv-url"]}
             download="Muhammad_Daffa_Satria_Negara_CV"
-            className="text-sm max-sm:text-xs px-2 md:px-2 ms-auto text-center py-1 bg-emerald text-white font-bold rounded hover:bg-emeraldhover"
+            className="text-sm max-sm:text-xs md:w-7 md:h-7 w-6 h-6 flex items-center justify-center ms-auto text-center bg-emerald text-white font-bold rounded hover:bg-emeraldhover"
           >
-            <Download className="w-3 h-3  md:w-5 md:h-5" />
+            <Download className="w-4 h-4" />
           </a>
         </div>
-        <p className="text-xs md:text-sm mt-2">{contentData["cv-text"]}</p>
+        <p className="text-sm mt-2 text-justify">{contentData["cv-text"]}</p>
       </div>
     </Card>
   );
