@@ -6,12 +6,12 @@ const CertificatesContent = () => {
 
   return (
     <Card className="p-5 h-full">
-      <p className="text-base md:text-lg font-semibold">Certificates</p>
+      <p className="text-lg md:text-xl font-semibold">Certificates</p>
       <div className="w-full flex flex-col gap-2 mt-2">
         {contentData.map((data, index) => (
           <div key={index}>
             <a
-              className="text-sm hover:underline font-medium"
+              className="text-sm md:text-base hover:underline font-medium"
               href={data.url}
               target="_blank"
             >
@@ -31,7 +31,7 @@ const CertificatesContent = () => {
                 </>
               )}
             </a>
-            <p className="text-xs my-1">
+            <p className="text-xs md:text-sm my-1">
               {data.end_date === ""
                 ? `${data.published_date}`
                 : `${data.published_date} – ${data.end_date}`}
@@ -43,7 +43,7 @@ const CertificatesContent = () => {
         <div className="flex justify-center">
           <a
             href="/certificates"
-            className="text-sm text-emerald underline md:text-sm hover:text-emeraldhover"
+            className="text-sm text-emerald underline hover:text-emeraldhover"
           >
             Explore More...
           </a>

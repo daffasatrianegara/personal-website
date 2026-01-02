@@ -21,7 +21,7 @@ const ProjectsContent = ({
 
   return (
     <Card className="p-5">
-      <p className="text-base md:text-lg font-semibold">Projects</p>
+      <p className="text-lg md:text-xl font-semibold">Projects</p>
       <div className="mt-2 md:mt-4 w-full">
         <div className="p-1">
           {contentData.map((data) => {
@@ -43,13 +43,13 @@ const ProjectsContent = ({
                   <p className="text-base md:text-lg font-semibold">
                     {data.name}
                   </p>
-                  <p className="text-xs md:text-sm text-gray-400 dark:text-gray-300 line-clamp-5 text-justify">
+                  <p className="text-sm md:text-base text-gray-400 dark:text-gray-300 line-clamp-5 text-justify">
                     {data.description}
                   </p>
                   <div className="w-full flex flex-wrap my-3 gap-2">
                     {data.technologies.map((tech, index) => (
                       <Badge
-                        className="bg-emerald hover:bg-emeraldhover"
+                        className="bg-emerald hover:bg-emeraldhover text-xs"
                         key={index}
                       >
                         <p className="text-[#FAFAFA]">{tech}</p>

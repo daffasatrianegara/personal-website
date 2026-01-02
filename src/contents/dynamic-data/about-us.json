@@ -1,9 +1,7 @@
 {
   "about-us": {
-    "text-main": "Currently pursuing a Bachelor's degree in Information Technology at Universitas Negeri Yogyakarta. Proficient in communication, public speaking, and critical thinking, with strong collaboration and teamwork skills. Experienced in working effectively under pressure and managing time efficiently.",
+    "text-main": "Bachelor of Engineering in Information Technology (Cum Laude) from Universitas Negeri Yogyakarta with strong communication, public speaking, and critical thinking skills. Proven team collaborator with the ability to perform effectively under pressure and manage time efficiently in fast-paced environments.",
     "programming-languages": [
-      "HTML",
-      "CSS",
       "JavaScript",
       "TypeScript",
       "PHP",
@@ -16,6 +14,7 @@
       "React.js",
       "Next.js",
       "Vue.js",
+      "Nuxt.js",
       "Laravel",
       "Node.js",
       "Express.js",
@@ -24,7 +23,9 @@
       "Chakra UI",
       "Bootstrap",
       "Shadcn/ui",
-      "Next/ui"
+      "Next/ui",
+      "Nuxt/ui",
+      "Prime Vue"
     ],
     "softwares": [
       "Visual Studio Code",

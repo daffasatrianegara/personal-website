@@ -1,7 +1,7 @@
 const FooterComponent: React.FC = () => {
   return (
     <div className="w-full flex justify-center items-center border-t-[1px] py-7">
-      <p className="font-medium text-sm text-center max-sm:text-xs px-3">
+      <p className="font-medium text-xs sm:text-sm text-center px-3">
         Crafted with care💚 by{" "}
         <span className="font-semibold">
           <a

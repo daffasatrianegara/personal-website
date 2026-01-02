@@ -11,7 +11,7 @@ const ExperiencesContent = ({
 
   return (
     <Card className="p-5 h-full">
-      <p className="text-base md:text-lg font-semibold">Experiences</p>
+      <p className="text-lg md:text-xl font-semibold">Experiences</p>
       <div className="ms-1 mt-2 w-full">
         <ol className="relative border-s border-emerald dark:border-gray-700">
           {contentData.map((data, index) => (
@@ -36,7 +36,7 @@ const ExperiencesContent = ({
         <div className="flex justify-center mt-3">
           <a
             href="/experiences"
-            className="text-sm text-emerald underline md:text-sm hover:text-emeraldhover"
+            className="text-sm text-emerald underline hover:text-emeraldhover"
           >
             Explore More...
           </a>
