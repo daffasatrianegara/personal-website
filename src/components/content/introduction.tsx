@@ -44,24 +44,24 @@ const IntroductionContent = () => {
               Muhammad Daffa Satria Negara
             </span>
           </p>
-          <p className="font-bold text-xl md:text-2xl mt-1">
+          <p className="font-bold text-lg sm:text-xl md:text-2xl mt-1">
             <span className="font-normal">A</span> {text}
             <span className="blinking-cursor">|</span>
           </p>
           <div className="md:hidden my-2 w-full flex justify-center">
             <img
               className="w-72 max-sm:w-full"
-              src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHZsMGM3bXRnNWsyZDhpaGZveTd0Z2R0eWV0eXh4NzBlNTFuMjE4cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xTg8B31DCfCWKEThG8/giphy.webp"
+              src={contentData["link-img"]}
               alt="img_me"
             />
           </div>
           <p
-            className="text-base mb-1"
+            className="text-sm md:text-base mb-1"
             dangerouslySetInnerHTML={{ __html: contentData["text-main"] }}
           ></p>
           <div className="mt-5">
             <a
-              className="bg-emerald py-2 px-5 rounded font-bold text-white hover:bg-emeraldhover"
+              className="bg-emerald md:py-2 py-1 md:px-5 px-3 md:text-base text-sm rounded font-bold text-white hover:bg-emeraldhover"
               href={`mailto:${contentData.email}`}
             >
               Get in Touch

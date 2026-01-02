@@ -13,19 +13,19 @@ const AboutMeContent = () => {
   return (
     <Card className="p-5 h-full">
       <p className="text-base md:text-lg font-semibold">About Me</p>
-      <p className="mt-2 font-light text-sm">{contentData["text-main"]}</p>
+      <p className="mt-2 text-sm">{contentData["text-main"]}</p>
       <div className="my-3 w-full border-b border-gray-200 dark:border-gray-800"></div>
-      <p className="text-base md:text-sm">
+      <p className="text-sm">
         I work with a range of cutting-edge technologies, including:
       </p>
       <div className="w-full h-fit mt-2">
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
-            <AccordionTrigger className="bg-transparent">
+            <AccordionTrigger className="bg-transparent md:text-base text-sm">
               Programming Languanges
             </AccordionTrigger>
             <AccordionContent className="p-2 ps-5">
-              <ul className="grid grid-cols-2 list-disc list-inside gap-1 max-sm:text-xs">
+              <ul className="grid grid-cols-2 list-disc list-inside gap-1 text-xs sm:text-sm">
                 {contentData["programming-languages"].map((data, index) => (
                   <li key={index}>{data}</li>
                 ))}
@@ -33,11 +33,11 @@ const AboutMeContent = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger className="bg-transparent">
+            <AccordionTrigger className="bg-transparent md:text-base text-sm">
               Framewoks
             </AccordionTrigger>
             <AccordionContent className="p-2 ps-5">
-              <ul className="grid grid-cols-2 list-disc list-inside gap-1 max-sm:text-xs">
+              <ul className="grid grid-cols-2 list-disc list-inside gap-1 text-xs sm:text-sm">
                 {contentData.frameworks.map((data, index) => (
                   <li key={index}>{data}</li>
                 ))}
@@ -45,11 +45,11 @@ const AboutMeContent = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger className="bg-transparent">
+            <AccordionTrigger className="bg-transparent md:text-base text-sm">
               Softwares
             </AccordionTrigger>
             <AccordionContent className="p-2 ps-5">
-              <ul className="grid grid-cols-2 list-disc list-inside gap-1 max-sm:text-xs">
+              <ul className="grid grid-cols-2 list-disc list-inside gap-1 text-xs sm:text-sm">
                 {contentData.softwares.map((data, index) => (
                   <li key={index}>{data}</li>
                 ))}
