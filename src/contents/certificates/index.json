@@ -1,11 +1,27 @@
 {
   "certificates": [
     {
+      "status": "completion",
+      "title": "SOLUSI 247 Frontend Developer Internship Program",
+      "company_name": "Dua Empat Tujuh, PT (SOLUSI247)",
+      "url": "https://drive.google.com/file/d/12C0I8GEr7ftOb24w1-bauz6gTNNDi0_p/view",
+      "published_date": "November 2025",
+      "end_date": ""
+    },
+    {
+      "status": "completion",
+      "title": "Bangkit Academy Specialized in Cloud Computing",
+      "company_name": "Bangkit led by Google, Goto, and Traveloka",
+      "url": "https://drive.google.com/file/d/1UFHv-64CxYHYQ8YgV-FEPoPAMPgHb36H/view",
+      "published_date": "January 2025",
+      "end_date": ""
+    },
+    {
       "status": "badge",
       "title": "Google Cloud Skill Boost",
       "company_name": "Google",
       "url": "https://www.cloudskillsboost.google/public_profiles/34d9b69b-52e0-4cfc-8f8e-5abc3d603bd8",
-      "published_date": "October 2024",
+      "published_date": "January 2025",
       "end_date": ""
     },
     {
