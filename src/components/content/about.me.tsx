@@ -12,10 +12,12 @@ const AboutMeContent = () => {
 
   return (
     <Card className="p-5 h-full">
-      <p className="text-base md:text-lg font-semibold">About Me</p>
-      <p className="mt-2 text-sm text-justify">{contentData["text-main"]}</p>
+      <p className="text-lg md:text-xl font-semibold">About Me</p>
+      <p className="mt-2 text-sm md:text-base text-justify">
+        {contentData["text-main"]}
+      </p>
       <div className="my-3 w-full border-b border-gray-200 dark:border-gray-800"></div>
-      <p className="text-sm">
+      <p className="text-sm md:text-base">
         I work with a range of cutting-edge technologies, including:
       </p>
       <div className="w-full h-fit mt-2">

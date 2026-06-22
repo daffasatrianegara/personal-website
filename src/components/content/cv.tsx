@@ -17,7 +17,9 @@ const CvContent = () => {
             <Download className="w-4 h-4" />
           </a>
         </div>
-        <p className="text-sm mt-2 text-justify">{contentData["cv-text"]}</p>
+        <p className="text-sm md:text-base mt-2 text-justify">
+          {contentData["cv-text"]}
+        </p>
       </div>
     </Card>
   );

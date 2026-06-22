@@ -13,11 +13,11 @@ const ExperiencesContent = ({
     <Card className="p-5 h-full">
       <p className="text-lg md:text-xl font-semibold">Experiences</p>
       <div className="ms-1 mt-2 w-full">
-        <ol className="relative border-s border-emerald dark:border-gray-700">
+        <ol className="relative border-s border-emerald">
           {contentData.map((data, index) => (
             <li className="mb-5 ms-4" key={index}>
-              <div className="absolute w-3 h-3 bg-emerald rounded-full mt-2 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-xs md:text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <div className="absolute w-3 h-3 bg-emerald rounded-full mt-2 -start-1.5 border border-white dark:border-gray-900"></div>
+              <time className="mb-1 text-xs md:text-sm font-normal leading-none text-gray-600 dark:text-gray-300">
                 {data.start_date} - {data.end_Date}
               </time>
               <p className="text-sm md:text-base font-semibold text-gray-900 dark:text-white">
