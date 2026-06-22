@@ -44,7 +44,7 @@ const CertificatesPage = () => {
       </Breadcrumb>
       <div className="my-5">
         <div className="w-full flex flex-wrap gap-5 items-center">
-          <p className="text-xl md:text-2xl font-semibold">
+          <p className="text-xl md:text-2xl font-bold">
             Verified Certifications
           </p>
           <div className="ms-auto max-[452px]:m-0">

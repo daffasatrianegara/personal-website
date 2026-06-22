@@ -60,7 +60,7 @@ const ProjectsPage = () => {
         </BreadcrumbList>
       </Breadcrumb>
       <div className="my-5">
-        <p className="text-xl md:text-2xl font-semibold">Projects</p>
+        <p className="text-xl md:text-2xl font-bold">Projects</p>
         <div className="w-full border-b mt-2 border-gray-200 dark:border-gray-800"></div>
       </div>
       <div className="ms-2">
@@ -100,7 +100,7 @@ const ProjectsPage = () => {
                   <p className="text-base md:text-lg font-semibold">
                     {data.name}
                   </p>
-                  <p className="text-xs md:text-sm text-gray-400 dark:text-gray-300 text-justify line-clamp-[7]">
+                  <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 text-justify line-clamp-[7]">
                     {data.description}
                   </p>
                   <div className="w-full flex flex-wrap my-3 gap-2">
