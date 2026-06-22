@@ -10,9 +10,9 @@ const ExperiencesContent = ({
   );
 
   return (
-    <Card className="p-5 h-full">
+    <Card className="p-5 h-full flex flex-col">
       <p className="text-lg md:text-xl font-semibold">Experiences</p>
-      <div className="ms-1 mt-2 w-full">
+      <div className="ms-1 mt-2 w-full flex flex-col flex-1">
         <ol className="relative border-s border-emerald">
           {contentData.map((data, index) => (
             <li className="mb-5 ms-4" key={index}>
@@ -20,26 +20,28 @@ const ExperiencesContent = ({
               <time className="mb-1 text-xs md:text-sm font-normal leading-none text-gray-600 dark:text-gray-300">
                 {data.start_date} - {data.end_Date}
               </time>
-              <p className="text-sm md:text-base font-semibold text-gray-900 dark:text-white">
+              <p className="text-sm md:text-base font-semibold text-emerald">
                 {data.position}{" "}
-                <span className="text-[0.7rem] md:text-[0.8rem] font-normal text-gray-400 dark:text-gray-300">
+                <span className="text-[0.7rem] md:text-[0.8rem] font-normal text-gray-600 dark:text-gray-300">
                   - {data.status}
                 </span>
               </p>
-              <p className="text-xs md:text-sm text-gray-400 dark:text-gray-300 my-0.5">
+              <p className="text-xs md:text-sm text-gray-900 dark:text-white font-medium my-0.5">
                 {data.company_name}
               </p>
             </li>
           ))}
         </ol>
-        <div className="w-full border-b my-1"></div>
-        <div className="flex justify-center mt-3">
-          <a
-            href="/experiences"
-            className="text-sm text-emerald underline hover:text-emeraldhover"
-          >
-            Explore More...
-          </a>
+        <div className="mt-auto mb-1">
+          <div className="w-full border-b"></div>
+          <div className="flex justify-center mt-3">
+            <a
+              href="/experiences"
+              className="text-sm text-emerald underline hover:text-emeraldhover"
+            >
+              Explore More...
+            </a>
+          </div>
         </div>
       </div>
     </Card>
