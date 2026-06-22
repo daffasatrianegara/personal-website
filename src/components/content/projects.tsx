@@ -14,9 +14,13 @@ const ProjectsContent = ({
 
   const handleRedirect = (link?: string, newTab = false) => {
     if (!link) return;
-    newTab
-      ? window.open(link, "_blank", "noopener,noreferrer")
-      : (window.location.href = link);
+
+    if (newTab) {
+      window.open(link, "_blank", "noopener,noreferrer");
+      return;
+    }
+
+    window.location.href = link;
   };
 
   return (
